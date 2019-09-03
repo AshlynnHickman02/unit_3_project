@@ -1,0 +1,34 @@
+html {
+	background-color: black;
+	color: white;
+}
+.red {
+	background-color: red;
+}
+.asaftiwabumpo {
+	height: 28px;
+	width: 28px;
+}
+.center-image {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo-in-head {
+	height: 28px;
+	width: 88px;
+}
+#big-logo {
+	height: 400px;
+	width: 450px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+a:hover {
+	color: red;
+}
+a:visited {
+	color: grey;
+	opacity: 90%;
+}
