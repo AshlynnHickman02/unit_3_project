@@ -7,6 +7,7 @@ h1 {
 	height: 240px;
 	width: 280px;
 	vertical-align: middle;
+	float: center;
 }
 .type-image {
 	width: 60px;
