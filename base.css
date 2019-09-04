@@ -10,6 +10,9 @@ footer {
 .chicken {
 	width: 100%;
 	text-align: center;
+	border-color: white;
+	border-width: 12px;
+	white-space: nowrap;
 }
 
 .sr {
@@ -34,6 +37,10 @@ th {
 	width: 20%;
 	padding-right: 28px;
 	white-space: nowrap;
+}
+#plzhelp{
+	column-span: 3;
+	-ms-grid-row-span: 3;
 }
 #logo-cell {
 	width: 40%;
