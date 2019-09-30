@@ -2,10 +2,13 @@ html {
 	background-color: rgb(255,39,39);
 	color: white;
 	padding-left: 28px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 footer {
 	float: bottom;
 	text-align: center;
+	border: black;
+	clear: both;
 }
 .chicken {
 	width: 100%;
@@ -13,6 +16,12 @@ footer {
 	border-color: white;
 	border-width: 12px;
 	white-space: nowrap;
+	background-color: white;
+	float: right;
+	outline-width: 1px;
+	outline-style: solid;
+	outline-color: black;
+	outline: 1px solid black; 
 }
 a{
 	text-decoration: none;
@@ -49,7 +58,9 @@ th {
 }
 #logo-in-head {
 	height: 70px;
-	width: 250px;
+	width: 20%;
+	float: left;
+
 }
 #big-logo {
 	height: 400px;
@@ -62,8 +73,31 @@ th {
 	text-align: center;
 }
 a {
-	color: #d4da65;
+	color: #dbe430;
 }
 a:hover {
 	color: red;
+}
+#PokeWeb, #Assist{
+	background-color: white;
+	color: black;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+	outline-width: 1px;
+	outline-style: solid;
+	outline-color: black;
+	outline: 1px solid black; 
+}
+p{
+ font-family: Arial, Helvetica, sans-serif;
+}
+div[class^="col-"]{
+	float: left;
+	display: block;
+
+}
+div.col1-1, div.col1-2{
+	width: 75%;
 }
