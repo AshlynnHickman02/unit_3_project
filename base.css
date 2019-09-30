@@ -14,7 +14,9 @@ footer {
 	border-width: 12px;
 	white-space: nowrap;
 }
-
+a{
+	text-decoration: none;
+}
 .sr {
 	text-indent: 30%;
 }
