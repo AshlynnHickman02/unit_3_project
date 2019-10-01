@@ -4,11 +4,23 @@
 	url(Hind-Regular.woff) format('woff'),
 	url(Hind-Regular.woff2) format('woff2');
 }
+@font-face{
+	font-family: Titillium;
+	src: url(TitilliumWeb-Bold.ttf) format('ttf'),
+	url(TitilliumWeb-Bold.woff) format('woff'),
+	url(TitilliumWeb-Bold.woff22) format('woff2');
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 40;
+}
+p, a{	
+	font-family: 'Hind', sans-serif;
+}
 html {
 	background-color: rgb(255,39,39);
 	color: white;
 	padding-left: 28px;
-	font-family: 'Hind', sans-serif;
 }
 footer {
 	float: bottom;
@@ -120,9 +132,6 @@ div.row {
 	outline-style: solid;
 	outline-color: black;
 	outline: 1px solid black; 
-}
-p{
-	font-family: 'Hind', sans-serif;
 }
 div[class^="col-"]{
 	float: left;
