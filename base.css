@@ -84,7 +84,6 @@ a {
 a:hover {
 	color: red;
 }
-<<<<<<< HEAD
 /* Grid Rows Styles */
 div.row {
 	clear: both;
@@ -109,7 +108,7 @@ div.row {
 	width: 140px;
 	display: block;
 }
-=======
+
 #PokeWeb, #Assist{
 	background-color: white;
 	color: black;
@@ -133,4 +132,3 @@ div[class^="col-"]{
 div.col1-1, div.col1-2{
 	width: 75%;
 }
->>>>>>> master
