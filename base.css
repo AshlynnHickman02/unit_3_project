@@ -67,3 +67,27 @@ a {
 a:hover {
 	color: red;
 }
+/* Grid Rows Styles */
+div.row {
+	clear: both;
+ }
+ div.row::after {
+	clear: both;
+	content: "";
+	display: table;
+ }
+ /* Grid Columns Styles */
+ div[class^="col-"] {
+	float: left;
+ }
+ div.col-1-1 {
+	width: 100%;
+ }
+ div.col-1-2 {
+	width: 50%;
+}
+#elements{
+	height:120px;
+	width: 140px;
+	display: block;
+}

@@ -3,7 +3,7 @@ h1 {
 	text-align: left;
 	padding-left: 40px;
 }
-#pokemon-image {
+.pokemon-image {
 	height: 240px;
 	width: 280px;
 	vertical-align: middle;
